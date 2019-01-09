@@ -1,7 +1,28 @@
 # kafaka-mac
-[TOC]
+* [kafaka-mac](#kafaka-mac)
+  * [学习目标](#学习目标)
+  * [安装kafka](#安装kafka)
+  * [启动方式](#启动方式)
+  * [创建主题test](#创建主题test)
+  * [查看创建的topic](#查看创建的topic)
+  * [生产者生产数据](#生产者生产数据)
+  * [消费者](#消费者)
+  * [整合springboot](#整合springboot)
+    * [pom](#pom)
+    * [配置](#配置)
+* [kafka](#kafka)
+    * [生产者](#生产者)
+    * [消费者](#消费者-1)
+  * [终端结果展示](#终端结果展示)
+  * [参考文献](#参考文献)
 ## 学习目标
--[] 
+- [ ] kafka环境搭建
+	- [x] 单机
+	- [ ]集群
+- [ ] kafka基本运用
+	- [x]单机
+	- [ ]集群
+- [ ] ETL上kafka可靠性传输探究
 ## 安装kafka
 - brew update
 - brew install kafka
@@ -68,11 +89,8 @@ public class KafkaReceiver {
 ## 终端结果展示
 ![image](./image/kafka-mac.png)
 ## 参考文献
-[印象笔记 Markdown 入门指南][1]
-[1]: https://list.yinxiang.com/markdown/eef42447-db3f-48ee-827b-1bb34c03eb83.php
-[CSDN-Spring Boot集成Kafka][2]
-[2]: https://blog.csdn.net/guijiaoba/article/details/78637375
-[Spring for Apache Kafka][3]
-[3]:https://docs.spring.io/spring-kafka/docs/2.2.2.RELEASE/reference/html/
-[kafka学习路线][4]
-[4]:https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=kafka%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF&oq=%2526gt%253BTL%25E4%25B8%258Akafka%25E5%25AD%25A6%25E4%25B9%25A0%25E8%25B7%25AF%25E7%25BA%25BF&rsv_pq=d79a747d0001a559&rsv_t=1607CULT%2BvC1cpwxtxhBXoMjWBQpvX6d38eea0X3OWYomU09huwcW0%2FrG%2FE&rqlang=cn&rsv_enter=1&rsv_sug3=1&rsv_sug2=0&inputT=485&rsv_sug4=486
+[1]: [印象笔记 Markdown 入门指南](https://list.yinxiang.com/markdown/eef42447-db3f-48ee-827b-1bb34c03eb83.php)<br>
+[2]: [CSDN-Spring Boot集成Kafka](https://blog.csdn.net/guijiaoba/article/details/78637375)<br>
+[3]:[Spring for Apache Kafka](https://docs.spring.io/spring-kafka/docs/2.2.2.RELEASE/reference/html/)<br>
+[4]:[kafka学习路线](https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=kafka%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF&oq=%2526gt%253BTL%25E4%25B8%258Akafka%25E5%25AD%25A6%25E4%25B9%25A0%25E8%25B7%25AF%25E7%25BA%25BF&rsv_pq=d79a747d0001a559&rsv_t=1607CULT%2BvC1cpwxtxhBXoMjWBQpvX6d38eea0X3OWYomU09huwcW0%2FrG%2FE&rqlang=cn&rsv_enter=1&rsv_sug3=1&rsv_sug2=0&inputT=485&rsv_sug4=486)
+[5]:[markdown 文件生成 toc 目录](https://github.com/houbb/markdown-toc)
