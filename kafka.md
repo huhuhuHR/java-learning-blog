@@ -1,5 +1,5 @@
-# kafaka-mac
-* [kafaka-mac](#kafaka-mac)
+# kafaka
+* [kafaka](#kafaka)
   * [学习目标](#学习目标)
   * [安装kafka](#安装kafka)
   * [启动方式](#启动方式)
@@ -10,7 +10,7 @@
   * [整合springboot](#整合springboot)
     * [pom](#pom)
     * [配置](#配置)
-* [kafka](#kafka)
+  * [kafka](#kafka)
     * [生产者](#生产者)
     * [消费者](#消费者-1)
   * [终端结果展示](#终端结果展示)
