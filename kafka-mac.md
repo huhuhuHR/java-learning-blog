@@ -18,11 +18,11 @@
 ## 学习目标
 - [ ] kafka环境搭建
 	- [x] 单机
-	- [ ]集群
+	- [ ] 集群
 - [ ] kafka基本运用
-	- [x]单机
-	- [ ]集群
-- [ ] ETL上kafka可靠性传输探究
+	- [x] 单机
+	- [ ] 集群
+- [ ] ETL上运用kafka进行实时可靠性传输探究
 ## 安装kafka
 - brew update
 - brew install kafka
