@@ -87,7 +87,7 @@ public class KafkaReceiver {
 }
 ```
 ## 终端结果展示
-![image](./image/kafka-mac.png)
+![image](https://img-blog.csdnimg.cn/20190110065325444.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwNzY2MDg1,size_16,color_FFFFFF,t_70)
 ## 参考文献
 [1]: [印象笔记 Markdown 入门指南](https://list.yinxiang.com/markdown/eef42447-db3f-48ee-827b-1bb34c03eb83.php)<br>
 [2]: [CSDN-Spring Boot集成Kafka](https://blog.csdn.net/guijiaoba/article/details/78637375)<br>
