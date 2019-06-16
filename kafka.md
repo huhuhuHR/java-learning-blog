@@ -3,6 +3,7 @@
   * [学习目标](#学习目标)
   * [安装kafka](#安装kafka)
   * [启动方式](#启动方式)
+  * [停止方式](#停止方式)
   * [创建主题test](#创建主题test)
   * [查看创建的topic](#查看创建的topic)
   * [生产者生产数据](#生产者生产数据)
@@ -30,6 +31,8 @@
 ## 启动方式
 	zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties & kafka-server-start /usr/local/etc/kafka/server.properties
 	brew services start kafka和brew services start zookeeper
+## 停止方式
+	brew services stop kafka和brew services stop zookeeper
 ## 创建主题test
 	kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
 ## 查看创建的topic
