@@ -53,7 +53,7 @@
         * Time：时间
         * FailedType：失败类型
         * FailedMethod：失败的方法
-    * 垃圾回收统计 jstat -gc pid: S0C    S1C    S0U    S1U      EC       EU        OC         OU       MC     MU    CCSC   CCSU   YGC     YGCT    FGC    FGCT     GCT
+    * 垃圾回收统计 jstat -gc pid: S0C|S1C|S0U|S1U|EC|EU|OC|OU|MC|MU|CCSC|CCSU|YGC|YGCT|FGC|FGCT|GCT
         * S0C：第一个幸存区的大小
         * S1C：第二个幸存区的大小
         * S0U：第一个幸存区的使用大小
@@ -71,7 +71,7 @@
         * FGC：老年代垃圾回收次数
         * FGCT：老年代垃圾回收消耗时间
         * GCT：垃圾回收消耗总时间    
-    * 堆内存统计 jstat -gccapacity pid:  NGCMN    NGCMX     NGC     S0C   S1C       EC      OGCMN      OGCMX       OGC         OC       MCMN     MCMX      MC     CCSMN    CCSMX     CCSC    YGC    FGC 
+    * 堆内存统计 jstat -gccapacity pid:NGCMN|NGCMX|NGC|S0C|S1C|EC|OGCMN|OGCMX|OGC|OC|MCMN|MCMX|MC|CCSMN|CCSMX|CCSC|YGC|FGC 
         * NGCMN：新生代最小容量
         * NGCMX：新生代最大容量
         * NGC：当前新生代容量
@@ -90,7 +90,7 @@
         * CCSC：当前压缩类空间大小
         * YGC：年轻代gc次数
         * FGC：老年代GC次数
-    * 新生代垃圾回收统计 jstat -gcnew pid:  S0C    S1C    S0U    S1U   TT MTT  DSS      EC       EU     YGC     YGCT 
+    * 新生代垃圾回收统计 jstat -gcnew pid:S0C|S1C|S0U|S1U|TT|MTT|DSS|EC|EU|YGC|YGCT 
         * S0C：第一个幸存区大小
         * S1C：第二个幸存区的大小
         * S0U：第一个幸存区的使用大小
@@ -102,7 +102,7 @@
         * EU：伊甸园区的使用大小
         * YGC：年轻代垃圾回收次数
         * YGCT：年轻代垃圾回收消耗时间
-    * 新生代内存统计 jstat -gcnewcapacity pid:   NGCMN      NGCMX       NGC      S0CMX     S0C     S1CMX     S1C       ECMX        EC      YGC   FGC
+    * 新生代内存统计 jstat -gcnewcapacity pid:NGCMN|NGCMX|NGC|S0CMX|S0C|S1CMX|S1C|ECMX|EC|YGC|FGC
         * NGCMN：新生代最小容量
         * NGCMX：新生代最大容量
         * NGC：当前新生代容量
@@ -114,7 +114,7 @@
         * EC：当前伊甸园区大小
         * YGC：年轻代垃圾回收次数
         * FGC：老年代回收次数  
-    * 老年代垃圾回收统计 jstat -gcold pid:MC       MU      CCSC     CCSU       OC          OU       YGC    FGC    FGCT     GCT  
+    * 老年代垃圾回收统计 jstat -gcold pid:MC|MU|CCSC|CCSU|OC|OU|YGC|FGC|FGCT|GCT  
         * MC：方法区大小
         * MU：方法区使用大小
         * CCSC:压缩类空间大小
@@ -125,7 +125,7 @@
         * FGC：老年代垃圾回收次数
         * FGCT：老年代垃圾回收消耗时间
         * GCT：垃圾回收消耗总时间
-     * 老年代内存统计 jstat -gcoldcapacity pid:OGCMN       OGCMX        OGC         OC       YGC   FGC    FGCT     GCT 
+     * 老年代内存统计 jstat -gcoldcapacity pid:OGCMN|OGCMX|OGC|OC|YGC|FGC|FGCT|GCT 
         * OGCMN：老年代最小容量
         * OGCMX：老年代最大容量
         * OGC：当前老年代大小
@@ -134,7 +134,7 @@
         * FGC：老年代垃圾回收次数
         * FGCT：老年代垃圾回收消耗时间
         * GCT：垃圾回收消耗总时间
-     * 元数据空间统计 jstat -gcmetacapacity pid:MCMN       MCMX        MC       CCSMN      CCSMX       CCSC     YGC   FGC    FGCT     GCT
+     * 元数据空间统计 jstat -gcmetacapacity pid:MCMN|MCMX|MC|CCSMN|CCSMX|CCSC|YGC|FGC|FGCT|GCT
         * MCMN: 最小元数据容量
         * MCMX：最大元数据容量
         * MC：当前元数据空间大小
@@ -145,7 +145,7 @@
         * FGC：老年代垃圾回收次数
         * FGCT：老年代垃圾回收消耗时间
         * GCT：垃圾回收消耗总时间
-     * 总结垃圾回收统计 jstat -gcutil pid:S0     S1     E      O      M     CCS    YGC     YGCT    FGC    FGCT     GCT
+     * 总结垃圾回收统计 jstat -gcutil pid:S0|S1|E|O|M|CCS|YGC|YGCT|FGC|FGCT|GCT
         * S0：幸存1区当前使用比例
         * S1：幸存2区当前使用比例
         * E：伊甸园区使用比例
